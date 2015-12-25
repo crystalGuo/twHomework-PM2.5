@@ -1,5 +1,9 @@
-# PM2_5
-修改CityInforFetcher中的token后可以访问到数据
+# twHomework-PM2.5
+version 1.0 to query the quality of city
 
-####截图：
-<img src="myApp.jpg" width="50%" height="50%">
+you should input the token in AirServiceClient.java,then you an access the data
+
+ps:version 1.1在实现界面跳转是还存在一些bug，正在调试中
+
+####app截图：
+<img src="myApp.jpg" width="60%",height="70%">
