@@ -8,9 +8,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="440px"
+        android:layout_marginTop="580px"
         android:textColor="#ffffff"
-        android:textSize="17dp"
         android:text="重点城市："/>
 
     <LinearLayout
@@ -23,33 +22,33 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
+        android:background="#00000000"
         android:text="北京"
-        android:background="#238e23"
         android:textColor="#ffffff"
         android:onClick="queryPM25ClickByButton"/>
     <Button
         android:id="@+id/button_xian"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="西安"
-        android:background="#238e23"
+        android:background="#00000000"
         android:textColor="#ffffff"
+        android:text="西安"
         android:onClick="queryPM25ClickByButton" />
     <Button
         android:id="@+id/button_shanghai"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="上海"
-        android:background="#238e23"
+        android:background="#00000000"
         android:textColor="#ffffff"
+        android:text="上海"
         android:onClick="queryPM25ClickByButton"/>
     <Button
         android:id="@+id/button_chengdu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="成都"
-        android:background="#238e23"
+        android:background="#00000000"
         android:textColor="#ffffff"
+        android:text="成都"
         android:onClick="queryPM25ClickByButton"/>
     </LinearLayout>
 
@@ -62,33 +61,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
-            android:text="深圳"
-            android:background="#238e23"
+            android:background="#00000000"
             android:textColor="#ffffff"
+            android:text="深圳"
             android:onClick="queryPM25ClickByButton"/>
         <Button
             android:id="@+id/button_nanjing"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="南京"
-            android:background="#238e23"
+            android:background="#00000000"
             android:textColor="#ffffff"
+            android:text="南京"
             android:onClick="queryPM25ClickByButton"/>
         <Button
             android:id="@+id/button_tianjin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="天津"
-            android:background="#238e23"
+            android:background="#00000000"
             android:textColor="#ffffff"
+            android:text="天津"
             android:onClick="queryPM25ClickByButton"/>
         <Button
             android:id="@+id/button_wuhan"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="武汉"
-            android:background="#238e23"
+            android:background="#00000000"
             android:textColor="#ffffff"
+            android:text="武汉"
             android:onClick="queryPM25ClickByButton"/>
     </LinearLayout>
 
@@ -97,31 +96,20 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:textColor="#ffffff"
-        android:textSize="17dp"
         android:text="请输入其他城市："/>
     <EditText
         android:id="@+id/edit_view_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint=""/>
+        android:textColor="#ffffff"
+        android:textSize="15dp"
+        android:background="#00000000"/>
     <Button
         android:id="@+id/button_query_pm25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="300dp"
-        android:background="#238e23"
+        android:background="#00000000"
         android:textColor="#ffffff"
         android:text="查询"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        android:textSize="17dp"
-        android:text="查询结果："/>
-    <TextView
-        android:id="@+id/text_view_pm25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#ffffff"
-        android:textSize="17dp"/>
 </LinearLayout>

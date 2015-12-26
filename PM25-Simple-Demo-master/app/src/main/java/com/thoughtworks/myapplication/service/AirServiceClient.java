@@ -14,7 +14,7 @@ import retrofit.Retrofit;
 public class AirServiceClient {
 
     private static final String BASE_URL = "http://www.pm25.in";
-    private static final String TOKEN = "";
+    private static final String TOKEN = "请输入自己的token值";
 
     private static AirServiceClient instance;
     private final AirService airService;
